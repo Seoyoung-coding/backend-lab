@@ -1,4 +1,4 @@
 package com.example.backendlab.user;
 
-public class entity {
+public class UserDto {
 }

@@ -1,4 +1,4 @@
 package com.example.backendlab.user;
 
-public class dto {
+public class UserRepository {
 }
