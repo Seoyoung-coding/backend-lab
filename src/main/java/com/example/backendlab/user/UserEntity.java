@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
+// user는 사용자 생성/조회/수정/삭제 기능을 구현
 @Getter
 @Setter
 @NoArgsConstructor
