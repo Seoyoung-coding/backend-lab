@@ -1,6 +1,8 @@
 package com.example.backendlab.user;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Optional;
 
 public class UserService {
 
@@ -15,5 +17,16 @@ public class UserService {
         );
 
         return userRepository.save(user);
+    }
+    public Optional<UserEntity> getUser(int id) {
+        return userRepository.findById(id);
+    }
+
+    public List<UserEntity> getAllUsers() {
+        return userRepository.findAll();
+    }
+
+    public void deleteUser(int id) {
+        userRepository.deleteById(id);
     }
 }
